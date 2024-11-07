@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LibraryMembership</title>
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <!--header-->
+            <div class="header">
+                <h1>แบบฟอร์มการสมัครสมาชิกห้องสมุด</h1>
+            </div>
+            <!--header end-->
+
+            <!--input group-->
+            <div class="input_group">
+
+                <!--thai name-->
+                <div class="thainame">
+                    <label for="thai_firstname">ชื่อ (ภาษาไทย)</label>
+                    <input type="text" id="thai_firstname" placeholder="ชื่อ (ภาษาไทย)" required>
+                    <br><br>
+                    <label for="thai_lastname">นามสกุล (ภาษาไทย)</label>
+                    <input type="text" id="thai_lastname" placeholder="นามสกุล (ภาษาไทย)" required>
+                </div>
+                <!--thai name end-->
+
+                <br>
+
+                <!--eng name-->
+                <div class="engname">
+                    <label for="eng_firstname">First Name (ภาษาอังกฤษ)</label>
+                    <input type="text" id="eng_firstname" placeholder="first name" required>
+                    <br><br>
+                    <label for="eng_lastname">Last Name (ภาษาอังกฤษ)</label>
+                    <input type="text" id="eng_lastname" placeholder="last name" required>
+                </div>
+                <!--eng name-->
+
+                <br>
+
+                <!--student id-->
+                <div class="studentid">
+                    <label for="student_id">รหัสนักศึกษา</label>
+                    <input type="text" id="student_id" placeholder="6xxxxxxxxx" required>
+                </div>
+                <!--student id-->
+
+                <br>
+
+                <!--gender-->
+                <div class="gender">
+                    <label for="gender">เพศ (Gender)</label>
+
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">ชาย</label><br>
+
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">หญิง</label><br>
+
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">อื่น ๆ</label>
+                </div>
+                <!--gender-->
+
+                <br>
+
+                
+            </div>
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>
