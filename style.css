@@ -28,3 +28,51 @@ form {
     color: #333;
     margin-bottom: 30px;
 }
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.input-group input[type="radio"],
+.input-group input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.input-group input[type="checkbox"]+label,
+.input-group input[type="radio"]+label {
+    margin-right: 15px;
+    display: inline-block;
+    font-size: 15px;
+}
+
+fieldset {
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.button-submit {
+    text-align: center;
+}
+
+.button-submit input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-submit input[type="submit"]:hover {
+    background-color: #e9711b;
+}
